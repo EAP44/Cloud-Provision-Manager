@@ -1,0 +1,231 @@
+/*Auth-Page*/
+.form-container {
+  padding: 40px;
+  width: 550px;
+  margin: auto;
+  background-color: #F7F7F7;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-container p {
+  margin: 0; 
+}
+.sign-up-button {
+  background-color: #F7F7F7;
+  border: 1px solid #393E46;
+  color: #393E46;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.sign-up-button:hover {
+  background-color: #4d5055;
+  color: #F7F7F7;
+}
+.forgot-password {
+  font-size: 14px;
+  color: #555555;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/*----------------------------------------------------- */
+span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+label {
+  margin-right: 10px;
+}
+form {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #EEEEEE;
+}
+/*----------------------------------------------------- */
+.button {
+  background-color: #393E46;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #F7F7F7;
+  font-size: large;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-microsoft {
+  display: inline-block;
+  background-color: #F7F7F7;
+  outline: none;
+  color: #F7F7F7;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 500px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.login-microsoft:hover {
+  background-color: #353535;
+}
+/*clientform-Page*/
+.ChooseClient-container {
+  padding: 40px;
+  width: 1000px;
+  margin: auto;
+  background-color: #F7F7F7;
+  padding: 50px;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.Continue-button {
+  background-color: #393E46;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #F7F7F7;
+  font-size: large;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*infosform-Page*/
+.InfosForm-container {
+  padding: 40px;
+  width: 800px;
+  margin: auto;
+  background-color: #F7F7F7;
+  padding: 50px;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.send-button {
+  background-color: #393E46;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #F7F7F7;
+  font-size: large;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type="date"]  {
+  flex-grow: 1;
+  padding: 10px 12px;
+  width: 680px;
+  font-size: 16px;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #EEEEEE;
+}
+.radio{
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  flex-grow: 1;
+  padding: 10px 12px;
+  width: 680px;
+  font-size: 16px;
+  outline: none;
+  margin-top: 5px;
+  padding: 5px;
+}
+/*addclient-Page*/
+.addclient-container {
+  padding: 40px;
+  width: 800px;
+  margin: auto;
+  background-color: #F7F7F7;
+  padding: 50px;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.send-button {
+  background-color: #393E46;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #F7F7F7;
+  font-size: large;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.country-code {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 3px;
+  padding: 10px;
+  border-radius: 5px;
+  border-right: 6px solid #393E46;
+  border: none;
+  background-color: #EEEEEE;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #EEEEEE;
+}
+/*addservice-Page*/
+.addservice-container {
+  padding: 40px;
+  width: 800px;
+  margin: auto;
+  background-color: #F7F7F7;
+  padding: 50px;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.send-button {
+  background-color: #393E46;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #F7F7F7;
+  font-size: large;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
