@@ -21,7 +21,7 @@ class ServiceController extends Controller
             'price' => 'required|numeric',
         ]);
         $service = Service::create($request->all());
-        return response()->json(['message' => 'Service created successfully', 'service' => $service], 201);
+        return response()->json(['message' => 'Service created successfully', 'service' => $service], 200);
     }
     public function show(int $service)
     {
