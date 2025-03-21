@@ -50,7 +50,7 @@ class OrderController extends Controller
     
     Mail::to('ayoubelaouadi16@gmail.com')->send(new OrderConfirmation($order, $orderDetails));
 
-    return response()->json(['message' => 'Order created successfully'], 201);
+    return response()->json(['message' => 'Order created successfully'], 200);
 }
 
 }
