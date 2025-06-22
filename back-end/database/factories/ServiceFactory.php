@@ -13,7 +13,7 @@ class ServiceFactory extends Factory
             'description' => $this->faker->sentence,
             'storage' => $this->faker->randomElement(['1TB', '2TB', '5TB']),
             'price' => $this->faker->randomFloat(2, 10, 1000),
-            'default_canva_mail' => $this->faker->randomElement(['info@example.com', 'support@example.com']),
+            'default_canva_mail' => $this->faker->randomElement(['info@gmail.com', 'support@gmail.com']),
         ];
     }
 }
